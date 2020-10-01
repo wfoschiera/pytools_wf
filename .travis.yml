@@ -1,11 +1,11 @@
 language: python
 python:
-  - 3.6
+  - 3.8.5
 install:
-  - pip install -q -r requirements-dev.txt codecov
+  - pip install -q pipenv codecov
+  - pipenv sync --dev
 script:
   - flake8
-  - pytest libpythonpro_wf
   - pytest libpythonpro_wf --cov=libpythonpro_wf
 
 after_success:

@@ -1,5 +1,6 @@
 class Conexao(object):
-    pass
+    def gerar_sessao(self):
+        pass
 
 
 def test_salvar_usuario():
