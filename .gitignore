@@ -128,4 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#pycharm files
 .idea
+
+#pypi files
+.pypirc
+dist
+.pytest_cache
+libpythonpro_wf.egg-info
