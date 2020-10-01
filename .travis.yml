@@ -5,8 +5,8 @@ install:
   - pip install -q -r requirements-dev.txt codecov
 script:
   - flake8
-  - pytest libpythonpro
-  - pytest libpythonpro --cov=libpythonpro
+  - pytest libpythonpro_wf
+  - pytest libpythonpro_wf --cov=libpythonpro_wf
 
 after_success:
   - codecov
