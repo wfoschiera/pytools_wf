@@ -1,18 +1,35 @@
 # Módulo Pytools
+Módulo para exemplificar construção de projetos Python no curso PyTools
+Nesse curso é ensinado como contribuir com projetos de código aberto
+Link para o curso Python Pro: www.python.pro.br
 
 [![Build Status](https://travis-ci.com/wfoschiera/pytools_wf.svg?branch=master)](https://travis-ci.com/wfoschiera/pytools_wf)
 [![Updates](https://pyup.io/repos/github/wfoschiera/pytools_wf/shield.svg)](https://pyup.io/repos/github/wfoschiera/pytools_wf/)
 [![Python 3](https://pyup.io/repos/github/wfoschiera/pytools_wf/python-3-shield.svg)](https://pyup.io/repos/github/wfoschiera/pytools_wf/)
 [![codecov](https://codecov.io/gh/wfoschiera/pytools_wf/branch/master/graph/badge.svg)](https://codecov.io/gh/wfoschiera/pytools_wf)
 
-Exercicio de uso do travis CI, dependências, flake8 entre outros.
+Suportada versão 3 de Python
 
-#Nota pessoal:
- - Os comandos foram executados no capítulo 2.1
- - Executar os comandos a partir de 2.2 - Pytest Fixtures
- - Assistir novamente a partir de 2.1 Framework pytest 
- 
- Anotar as dúvidas
- 
- Quando terminar todo o pytools, assistir do inícío e criar o cheat sheet
- 
+Para instalar:
+
+pipenv install ou 
+pipenv install --dev para rodar ambiente de desenvolvimento.
+
+Travis CI implmentando para conferir qualidade de código automaticamente.
+Para executar manualmente:
+flake8
+pytest
+
+
+Conteúdos utilizados nesse projeto:
+
+    Git
+    Pip
+    Virtualenv
+    Coverage
+    Travis CI
+    pytest (fixture/mocker)
+    unittest (Mock)
+    pipenv
+    
+    
